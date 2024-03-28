@@ -1,0 +1,25 @@
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+  border: 3px solid $main-green;
+  color: $main-green;
+  transition: all 0.7s;
+  width: 200px;
+
+  &:hover {
+    box-shadow: 0 0 10px $main-green;
+    background-color: $main-green;
+    color: $white;
+  }
+
+  &.primary {
+    background-color: $main-green;
+    color: $white;
+
+    &:hover {
+      box-shadow: 0 0 10px $main-green;
+      background-color: #39e49d;
+      color: $white;
+    }
+  }
+}

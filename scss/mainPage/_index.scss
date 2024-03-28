@@ -1,0 +1,97 @@
+.offer {
+  background: center no-repeat url(../../img/mainBackgraound.png);
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.offer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.offer-btn {
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+.offer-img {
+  width: 600px;
+
+  @media screen and (max-width: 1400px) {
+    width: 450px;
+  }
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}
+
+.about-us-information {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  background-color: #fff;
+  max-width: 570px;
+}
+
+.information {
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.information-img {
+  @media screen and (max-width: 480px) {
+    width: 300px;
+  }
+}
+
+.services {
+  gap: 40px;
+}
+
+.service-img {
+  width: 300px;
+  transition: all 1s;
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.benefits {
+  background: center no-repeat url(../../img/serviceMainBG.png);
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.benefit-card {
+  width: 350px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.benefit-cards {
+  gap: 25px;
+}
+
+.card-img-top {
+  border-radius: 5px;
+}
+
+.contact {
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.conect {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
