@@ -3,6 +3,7 @@
 @import "header";
 @import "button";
 @import "mainPage";
+@import "servicePage";
 @import "modal";
 @import "footer";
 
@@ -22,6 +23,15 @@ html {
 a{
   text-decoration: none;
   color: $text-gray;
+}
+
+h1 {
+  font-size: 1.8rem;
+@media (min-width: 1200px){
+  font-size: 2rem;
+
+}
+
 }
 
 .mt-6{

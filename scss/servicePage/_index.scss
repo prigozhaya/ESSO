@@ -1,0 +1,82 @@
+.service-offer {
+  background: center no-repeat url(../../img/serviceBG.png);
+  background-size: cover;
+  @media screen and (max-width: 992px) {
+    padding: 40px 0;
+  }
+}
+
+.service-cards{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.service-point {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.service-point-text {
+  color: $dark-green;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.service-card {
+  max-width: 1050px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service-description {
+  margin: auto;
+}
+
+.guarantees{
+  background: center no-repeat url(../../img/guaranteesBG.png);
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.guarantees-point{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  
+  & p{
+    margin: 0;
+  }
+}
+.information-guarantees-block{
+  box-shadow: -5px 5px 12px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #fff;
+  max-width: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.guarantees-img{
+  width: 400px;
+
+  @media screen and (max-width: 1400px) {
+    width: 350px;
+  }
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.form{
+  max-width: 500px;
+margin: 0 auto;
+}
