@@ -6,7 +6,7 @@
   }
 }
 
-.service-cards{
+.service-cards {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -39,22 +39,22 @@
   margin: auto;
 }
 
-.guarantees{
+.guarantees {
   background: center no-repeat url(../../img/guaranteesBG.png);
   background-size: cover;
   padding: 50px 0;
 }
 
-.guarantees-point{
+.guarantees-point {
   display: flex;
   gap: 5px;
   align-items: center;
-  
-  & p{
+
+  & p {
     margin: 0;
   }
 }
-.information-guarantees-block{
+.information-guarantees-block {
   box-shadow: -5px 5px 12px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
   background-color: #fff;
@@ -65,7 +65,7 @@
   gap: 15px;
 }
 
-.guarantees-img{
+.guarantees-img {
   width: 400px;
 
   @media screen and (max-width: 1400px) {
@@ -76,7 +76,7 @@
   }
 }
 
-.form{
+.form {
   max-width: 500px;
-margin: 0 auto;
+  margin: 0 auto;
 }

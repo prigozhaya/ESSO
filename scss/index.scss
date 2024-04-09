@@ -4,6 +4,7 @@
 @import "button";
 @import "mainPage";
 @import "servicePage";
+@import "aboutPage";
 @import "modal";
 @import "footer";
 
@@ -20,20 +21,18 @@ html {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
   color: $text-gray;
 }
 
 h1 {
   font-size: 1.8rem;
-@media (min-width: 1200px){
-  font-size: 2rem;
-
+  @media (min-width: 1200px) {
+    font-size: 2rem;
+  }
 }
 
-}
-
-.mt-6{
+.mt-6 {
   margin-top: 4rem;
 }

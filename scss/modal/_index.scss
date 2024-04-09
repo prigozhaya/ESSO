@@ -1,12 +1,20 @@
-.modal-form{
+.modal-form {
   padding: 20px;
 }
 
 .form-control {
-border: 2px solid $main-green;
+  border: 2px solid $main-green;
 
-&:focus{
-border: 2px solid $main-green;
-box-shadow: 0 0 10px $main-green;;
+  &:focus {
+    border: 2px solid $main-green;
+    box-shadow: 0 0 10px $main-green;
+  }
 }
+
+.form-control.error {
+  border: 2px solid #fb5c4d;
+  &:focus {
+    border: 2px solid #fb5c4d;
+    box-shadow: 0 0 10px #fb5c4d;
+  }
 }
